@@ -39,7 +39,7 @@ Generare și verificare paralelă a codurilor QR dintr-un fișier de URL-uri fol
 #### Cerinţe
 Implementați o aplicație Java care citește mai multe URL-uri dintr-un fișier.
 Pentru fiecare URL citit din fişier, aplicația generează codul QR în paralel printr-un CompletableFuture creat cu supplyAsync(), 
-apoi inițiază decodarea şi verificarea QR-ului cu thenApplyAsync(), raportând, la final, statusul („OK” sau „ERROR”) şi timpii de procesare.
+apoi inițiază decodarea şi verificarea QR-ului cu thenApply(), raportând, la final, statusul („OK” sau „ERROR”) şi timpii de procesare.
 
 #### Sugestii
 - Se folosește librăria ZXing pentru generarea şi decodarea codurilor QR.
